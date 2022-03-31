@@ -1,0 +1,37 @@
+.banner-service {
+    width: 100%;
+  }
+  
+  .banner_container {
+    position: relative;
+  
+    .title-banner_container {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+  
+      p {
+        color: white;
+        filter:drop-shadow(13px 10px 7px black);
+        text-transform: uppercase;
+        font-weight: bold !important;
+        font-family: "dutch";
+        font-size: 40px;
+        margin-left: 10px;
+      }
+      img {
+        width: 180px;
+        filter: contrast(0%) brightness(200%);
+      }
+    }
+  }
+
+  @media all and (orientation: portrait) {
+    
+    .title-banner_container {
+      img {
+        width: 80px !important;
+      }
+    }
+  }

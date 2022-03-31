@@ -1,0 +1,35 @@
+@import "variables";
+@import "footer";
+@import "header";
+@import "header-b";
+
+.container-e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  .category {
+    display: flex;
+  }
+  .category_text {
+    width: 320px;
+    height: 320px;
+    background: blue;
+    color: white;
+    border-radius: 0 50% 50% 0;
+    padding: 40px;
+  }
+  .b {
+    background: #007fc4;
+    border-radius: 50% 0% 0% 50% !important;
+    text-align: end;
+  }
+  .category_img {
+    width: 20vw;
+    width: 320px;
+    height: 320px;
+    border-radius: 0 50% 50% 0;
+  }
+}
